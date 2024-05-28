@@ -1,7 +1,15 @@
 # Overview
 
+This Allow you to playing this lab to creating and use Machine Learrning models using SQL environments
+
 Research publication from [This Article](https://www.nature.com/articles/s41597-019-0247-7)
 
+
+The Objective to do that :
+
+- Write functions in BigQuery to help with calculations to be performed on soccer shot data.
+- Create and evaluate "expected goals" models using BigQuery ML.
+- Apply an expected goals model to "new" data using BigQuery ML.
 
 ### About Data 
 
