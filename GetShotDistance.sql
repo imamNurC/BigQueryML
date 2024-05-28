@@ -1,10 +1,3 @@
-
-#!/bin/bash
-
-# Task 2. Calculate shot distance and shot angle
-
-bq query --use_legacy_sql=false "
-
 CREATE FUNCTION \`soccer.GetShotDistanceToGoal\`(x INT64, y INT64)
 RETURNS FLOAT64
 AS (
@@ -15,4 +8,3 @@ AS (
    POW((50 - y) * 68/100, 2)
    )
  );
-"
